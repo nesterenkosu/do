@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
     //Открытие файла
     int fd = open("input.txt",O_RDONLY);
     
-    //Блокировка файла перед записью в него
+    //Блокировка файла перед чтением из него
     struct flock lock;
     lock.l_type = F_RDLCK;//тип блокировки - при чтении
     lock.l_start = 0;
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     printf("Блокировка установлена\n");
     
     
-    //Запись данных в файл
+    //Чтение данных из файла
     char buf[6];
     read(fd,buf,5);
 
