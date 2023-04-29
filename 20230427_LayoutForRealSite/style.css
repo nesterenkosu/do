@@ -1,0 +1,86 @@
+#maincontainer {	
+	width: 1633px;
+	margin: 30px auto;
+	padding: 0 15px;
+}
+
+div#topnavigation {
+	background-color: #f6f6f6;
+	height: 160px;
+}
+
+div#logo {
+	float: left;
+	margin-left: 120px;
+	margin-top: 22px;
+}
+
+div#topmenu {
+	float: right;
+}
+
+div#topmenu ul {
+	list-style: none;
+	margin-top: 45px;
+}
+
+div#topmenu li {
+	float: left;
+	margin-right: 61px;
+	height: 70px;
+}
+
+div#topmenu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+	font-family: Arial;
+	display: block;
+	padding: 27px 10px;
+}
+
+div#topmenu li a:hover {
+	background-color: #ffea00;	
+}
+
+div#banner {
+	background: url('images/banner.png');
+	height: 150px;
+	width: 1633px;
+}
+
+div#sidebar {
+	width: 439px;
+	background-color: #424147;
+	float: right;
+	padding: 35px;
+}
+
+div#sidebar h1 {
+	color: #ffea00;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+div#sidebar ul {	
+	list-style-image: url("images/arrow.png");
+}
+
+div#sidebar li {
+	padding: 10px 16px;	
+}
+
+div#sidebar a {
+	    top: -10px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: -1px;
+    padding: 0;
+    display: block;
+}
